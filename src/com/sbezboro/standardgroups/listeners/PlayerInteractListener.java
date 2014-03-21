@@ -31,6 +31,10 @@ public class PlayerInteractListener extends SubPluginEventListener<StandardGroup
 		add(Material.FURNACE);
 		add(Material.DISPENSER);
 		add(Material.DROPPER);
+		add(Material.IRON_TRAP_DOOR);
+		add(material.ENCHANTMENT_TABLE);
+		add(material.TRAPPED_CHEST);
+		add(material.JUKEBOX);
 	}};
 	
 	public PlayerInteractListener(StandardPlugin plugin, StandardGroups subPlugin) {
